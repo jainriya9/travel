@@ -64,7 +64,7 @@ def get_weather(city):
 # STREAMLIT UI
 # -----------------------
 st.set_page_config(page_title="Your Travel Buddy", layout="wide", page_icon="🌏")
-st.markdown("<h1 style='text-align:center;'>🧠 Return Journey: Smart Trip Planner</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align:center;'>🧠 Your Travel Buddy: Smart Trip Planner</h1>", unsafe_allow_html=True)
 
 col1, col2 = st.columns([1, 2])
 
