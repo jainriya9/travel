@@ -2,9 +2,6 @@ import streamlit as st
 import random
 import requests
 
-# -----------------------
-# DATA SETUP
-# -----------------------
 destinations = {
     "Manali 🏔️": "Manali",
     "Goa 🏖️": "Goa",
@@ -66,7 +63,7 @@ def get_weather(city):
 # -----------------------
 # STREAMLIT UI
 # -----------------------
-st.set_page_config(page_title="Return Journey", layout="wide", page_icon="🌏")
+st.set_page_config(page_title="Your Travel Buddy", layout="wide", page_icon="🌏")
 st.markdown("<h1 style='text-align:center;'>🧠 Return Journey: Smart Trip Planner</h1>", unsafe_allow_html=True)
 
 col1, col2 = st.columns([1, 2])
@@ -127,4 +124,4 @@ with col2:
 
 
 st.markdown("---")
-st.markdown("<center>🌐 Created with love by Team Return Journey 💙</center>", unsafe_allow_html=True)
+st.markdown("<center>🌐 Created with love by Team Your Travel Buddy 💙</center>", unsafe_allow_html=True)
